@@ -17,4 +17,12 @@ public class XmlReceivedEvent implements IEvent {
         this.id = id;
         this.xmlConteudo = xmlConteudo;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getXmlConteudo() {
+        return xmlConteudo;
+    }
 }

@@ -31,7 +31,7 @@ public class BrokerController {
 
     @PostMapping("/notificar-broker")
     public String validateBroker(@RequestBody String xml) throws Exception {
-        log.info("Recebendo XML da Mensageria");
+        LOGGER.info("Recebendo XML da Mensageria");
 
         long begin = System.currentTimeMillis();
 

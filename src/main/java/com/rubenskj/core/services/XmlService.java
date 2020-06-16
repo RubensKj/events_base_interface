@@ -23,8 +23,6 @@ public class XmlService {
     }
 
     private void validate(XmlEntity xmlEntity) {
-        log.info("Validating XmlEntity. XmlEntity {}", xmlEntity);
-
         if (xmlEntity == null) {
             throw new IllegalStateException("XmlEntity cannot be null");
         }

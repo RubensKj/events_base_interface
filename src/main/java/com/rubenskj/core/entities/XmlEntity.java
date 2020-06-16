@@ -23,4 +23,20 @@ public class XmlEntity {
         this.uuid = uuid;
         this.xmlConteudo = xmlConteudo;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getUuid() {
+        return uuid;
+    }
+
+    public String getXmlConteudo() {
+        return xmlConteudo;
+    }
+
+    public void setXmlConteudo(String xmlConteudo) {
+        this.xmlConteudo = xmlConteudo;
+    }
 }
